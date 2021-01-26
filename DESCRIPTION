@@ -24,5 +24,6 @@ Imports:
     ggOceanMaps,
     ggOceanMapsData (>= 1.0.1),
     ggspatial
-Remotes: 
-    https://mikkovihtakari.github.io/drat
+Remotes:  
+    https://mikkovihtakari.github.io/drat,
+    https://cloud.r-project.org
