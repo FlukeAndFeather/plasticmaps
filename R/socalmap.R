@@ -1,3 +1,4 @@
+#' @export
 create_socal_map <- function() {
   basemap(limits = c(-121, -116.5, 32, 35),
           land.col = "burlywood",

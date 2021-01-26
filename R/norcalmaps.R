@@ -1,6 +1,7 @@
 #' @importFrom ggOceanMaps basemap
 #' @importFrom ggspatial annotation_scale
 #' @import ggplot2
+#' @export
 create_norcal_map <- function() {
   basemap(limits = c(-123.5, -121, 35.75, 38.25),
           land.col = "burlywood",
