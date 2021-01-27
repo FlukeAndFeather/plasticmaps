@@ -15,15 +15,13 @@ Depends:
 Imports: 
     ggmap,
     ggOceanMaps,
-    ggOceanMapsData,
     ggpubr,
     ggspatial,
     maps,
     sf (>= 0.9)
-Remotes: 
-    url::https://mikkovihtakari.github.io/drat
 Suggests:
-    devtools
+    ggOceanMapsData
+Additional_repositories: https://mikkovihtakari.github.io/drat
 Encoding: UTF-8
 Language: es
 LazyData: true

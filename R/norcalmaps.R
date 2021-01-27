@@ -2,6 +2,8 @@
 #' @importFrom ggspatial annotation_scale
 #' @export
 create_norcal_map <- function() {
+  check_data()
+
   basemap(limits = c(-123.5, -121, 35.75, 38.25),
           land.col = "burlywood",
           rotate = TRUE) +

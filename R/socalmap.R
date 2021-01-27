@@ -1,5 +1,7 @@
 #' @export
 create_socal_map <- function() {
+  check_data()
+
   basemap(limits = c(-121, -116.5, 32, 35),
           land.col = "burlywood",
           rotate = TRUE) +
