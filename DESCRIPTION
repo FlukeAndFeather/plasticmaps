@@ -11,18 +11,20 @@ Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Depends: 
     R (>= 2.10),
-    sf (>= 0.9),
     tidyverse
 Imports: 
     ggmap,
-    ggOceanMaps (>= 1.0.9),
-    ggOceanMapsData (>= 1.0.2),
+    ggOceanMaps,
+    ggOceanMapsData,
     ggpubr,
     ggspatial,
-    maps
+    maps,
+    sf (>= 0.9)
 Remotes: 
-    MikkoVihtakari/ggOceanMaps,
-    MikkoVihtakari/ggOceanMapsData
+    github::MikkoVihtakari/ggOceanMaps,
+    github::MikkoVihtakari/ggOceanMapsData
+Suggests:
+    devtools
 Encoding: UTF-8
 Language: es
 LazyData: true

@@ -2,8 +2,5 @@
 
 export(create_norcal_map)
 export(create_socal_map)
-import(ggplot2)
 importFrom(ggOceanMaps,basemap)
 importFrom(ggspatial,annotation_scale)
-importFrom(stringr,str_extract)
-importFrom(stringr,str_sub)
