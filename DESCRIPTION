@@ -21,8 +21,7 @@ Imports:
     maps,
     sf (>= 0.9)
 Remotes: 
-    github::MikkoVihtakari/ggOceanMaps,
-    github::MikkoVihtakari/ggOceanMapsData
+    url::https://mikkovihtakari.github.io/drat
 Suggests:
     devtools
 Encoding: UTF-8
